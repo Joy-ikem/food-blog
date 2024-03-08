@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: orange;
+    color: #ffffff;
+    padding:  0 15px;
+}
+
+#head-content{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+}
+
+h1{
+    font-size:2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #013220;
+    padding: 3px;
+}
+
+#nav{
+    display: none;
+}
+
+#hero-content{
+    /* padding: 10px; */
+    width: 100%;
+    height:fit-content;
+}
+
+#left-hero{
+    width: 100%;
+    height: 50vh;   
+}
+
+#right-hero{
+    width: 100%;
+    height:fit-content;
+    padding: 0 10px;
+}
+
+#hero-image{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    object-position: top;
+}
+
+#welcome-note{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif ;    
+    font-weight: bold;
+
+}
+
+#welcome-desc{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    
+
+}
+
+p{
+    font-size: larger;
+    font-weight: 900;
+    line-height: 2em;
+}
+
+img{
+    object-fit:contain;
+    height: 100%;
+    width: 100%;
+    padding: 0 8px;
+    border-radius: 10px;
+
+}
+
+h4{
+    line-height: 2em;
+    font-size: large;
+    padding: 10px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    padding: 10px;
+}
+
+#recipe-list{
+    font-size: 2rem;
+    font-weight: lighter;
+    
+}
+
+footer{
+    background-color: grey;
+
+}
+
+#image-content{
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+
+#end-part{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#Contact-text{
+    padding: 5px;
+    margin: 6px;
+}
+
+#Email{
+    padding: 5px;
+    margin: 6px;
+    color: lightcoral;
+}
+
+@media(min-width:640px){
+    #hero-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        height: 60vh;
+    }
+    
+    #left-hero{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #right-hero{
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media(min-width:600px){
+    #nav{
+        display: flex;
+    }
+}
