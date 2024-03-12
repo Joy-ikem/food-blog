@@ -68,17 +68,18 @@ h1{
 #welcome-desc{
     font-weight: bold;
     font-size: 1.2rem;
-
-    
-
 }
 
 p{
-    font-size: larger;
-    font-weight: 900;
+    font-size:normal;
+    font-weight: lighter;
     line-height: 2em;
+    padding: 5px;
 }
 
+#about-page{
+    font-weight: lighter;
+}
 
 img{
     object-fit:contain;
@@ -99,6 +100,14 @@ h4{
 
 h2{
     padding: 10px;
+    text-align: center;
+}
+
+#about-image{
+    object-fit:cover;
+    height: 50%;
+    width: 100%;
+    object-position: top;
 }
 
 #recipe-list{
@@ -108,7 +117,8 @@ h2{
 }
 
 footer{
-    background-color: grey;
+    background-color:#000000;
+    color: #ffffff;
 
 }
 
