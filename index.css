@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     /* padding: 20px; */
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     align-items: center;
 }
@@ -31,7 +31,7 @@ h1{
 
 #nav{
     display: none;
-}
+}j
 
 #hero-content{
     /* padding: 10px; */
@@ -192,7 +192,6 @@ nav{
 
 .linner-element{
     margin-top: 10px;
-    display: none;
 }
 
 @media(min-width:640px){
