@@ -23,7 +23,7 @@ header{
 }
 
 h1{
-    font-size:2rem;
+    font-size:1.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #013220;
@@ -59,8 +59,8 @@ h1{
 }
 
 #welcome-note{
-    font-size: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    font-size: 1,2rem;
+    font-family: serif;    
     font-weight: bold;
 
 }
@@ -111,7 +111,7 @@ h2{
 }
 
 #recipe-list{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
     
 }
@@ -119,6 +119,7 @@ h2{
 footer{
     background-color:#000000;
     color: #ffffff;
+    
 
 }
 
@@ -126,6 +127,30 @@ footer{
     display: flex;
     overflow-x: scroll;
     gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+#photo{
+    width: 67vw;
+}
+
+#photo-content{
+    width: 67vw;
+    height: 58vh;
+    object-fit: fill;
+}
+
+#content-photo{
+    width: 67vw;
+    height: 58vh;
+    object-fit: fill;
+}
+
+#last-contant{
+    font-size: large;
+    font-weight: lighter;
+    
 }
 
 #end-part{
