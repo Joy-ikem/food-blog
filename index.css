@@ -126,25 +126,15 @@ footer{
 #image-content{
     display: flex;
     overflow-x: scroll;
-    gap: 10px;
+    gap: 5px;
     height: 100%;
     width: 100%;
 }
 
-#photo{
+.photo{
     width: 67vw;
-}
-
-#photo-content{
-    width: 67vw;
-}
-
-#content-photo{
-    width: 67vw;
-}
-
-#photo-me{
-    width: 67vw;
+    height: 25vh;
+    background-color: yellow;
 }
 
 #footer-text{
