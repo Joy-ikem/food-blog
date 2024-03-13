@@ -137,14 +137,14 @@ footer{
 
 #photo-content{
     width: 67vw;
-    height: 58vh;
-    object-fit: fill;
 }
 
 #content-photo{
     width: 67vw;
-    height: 58vh;
-    object-fit: fill;
+}
+
+#photo-me{
+    width: 67vw;
 }
 
 #footer-text{
