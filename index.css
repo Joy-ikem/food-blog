@@ -147,16 +147,58 @@ footer{
     object-fit: fill;
 }
 
-#last-contant{
-    font-size: large;
-    font-weight: lighter;
+#footer-text{
+    line-height: 0ch;
+    padding: 0;
+}
+
+#footer-tittle{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: sans-serif;
     
 }
 
-#end-part{
-    display: flex;
+#footer-content{
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px ;
+}
+
+#phone{
+    color: white;
     padding: 10px;
+}
+
+#mail{
+    color: white;
+    padding: 10px;
+}
+
+#arrow{
+    float: right;
+    color: #ffffff;
+    margin: 5px;
+}
+
+#footer-desc{
+    text-align: center;
+    padding: 10px;
+}
+#about-contact{
+    font-size: 2em;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+#contact-link{
+    border: 1px solid #fff;
     justify-content: space-between;
+    align-content: center;
+    display: flex;
 }
 
 #Contact-text{
@@ -168,6 +210,9 @@ footer{
     padding: 5px;
     margin: 6px;
     color: lightcoral;
+}
+#arrow{
+    background: #000;
 }
 
 nav{
