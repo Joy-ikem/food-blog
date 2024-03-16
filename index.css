@@ -29,9 +29,6 @@ h1{
     padding: 3px;
 }
 
-#nav{
-    display: none;
-}
 
 #hero-content{
     width: 100%;
@@ -58,8 +55,8 @@ h1{
 
 #welcome-note{
     font-size: 1,2rem;
-    font-family: sans-serif;    
-    font-weight: bold;
+    font-family:"Sofia",sans-serif;    
+    text-shadow: 3px 3px 3px #ababab;
 }
 
 #welcome-desc{
@@ -212,55 +209,22 @@ footer{
     background: #000;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    color: white;
-    position: relative;
-}
-
-.nav-links{
+#toggle{
     display: none;
-    list-style: none;
 }
-
-#nav-links-target:target .nav-links{
-    transition: all 0.3s ease;
-    transition-delay: 0.1s;
-}
-
-.nav-links:target ~ .nav-links{
-    transform:translate3d(-50%,0,0);
-}
-
-.nav-links:target + .nav-links{
-    transform:translate3d(50%,0,0); 
-}
-
-.nav-links li{
-    margin-left: 10px;
- }
 
 .Hamburger-icon{
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute;
-    opacity: 0.7;
-}
-
-.Hamburger-icon:hover{
     display: block;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-.Hamburger-icon:active{
+.menu{
     display: none;
 }
 
-.Hamburger-icon:is-active + .nav-links{
-    display: none;
+#toggle:checked + .menu{
+    display: block;
 }
 
 .line1, .line2, line3{
@@ -270,9 +234,6 @@ nav{
     margin: 5px 0;
 }
 
-.linner-element{
-    margin-top: 10px;
-}
 
 /* mobile screen 640px */
 @media(min-width:40em){
@@ -355,4 +316,12 @@ nav{
 
 /* desktop screen 1280px*/
 @media(min-width:80em){
+    .photo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        overflow-y: scroll;
+        width: 50vw;
+        height: 70vh;
+    }
 }
